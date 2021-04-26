@@ -1,0 +1,8 @@
+prefix=/home/navmod/catkin_ws/devel
+
+Name: robot_localization_demo
+Description: Description of robot_localization_demo
+Version: 0.0.0
+Cflags: -I/home/navmod/catkin_ws/src/Localization_navMod/ros-ws/src/robot_localization_demo/include
+Libs: -L${prefix}/lib 
+Requires: roscpp tf2 robot_localization

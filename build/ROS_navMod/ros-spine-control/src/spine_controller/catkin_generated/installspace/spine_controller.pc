@@ -1,0 +1,8 @@
+prefix=/home/navmod/catkin_ws/install
+
+Name: spine_controller
+Description: Description of spine_controller
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime
